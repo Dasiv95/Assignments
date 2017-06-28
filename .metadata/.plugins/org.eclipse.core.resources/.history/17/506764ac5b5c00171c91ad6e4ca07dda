@@ -1,0 +1,28 @@
+package p1;
+
+interface drawable{
+	void draw();
+}
+class circle implements drawable{
+	public void draw(){
+		System.out.println("This is the circle method");
+	}
+}
+class rectangle implements drawable{
+	public void draw(){
+		System.out.println("This is the rectangle method");
+	}
+}
+
+public class TestInterface {
+
+	public static void main(String[] args) {
+		drawable d = new rectangle();
+		d.draw();
+		drawable r = new rectangle();
+		r.draw();
+		
+
+	}
+
+}

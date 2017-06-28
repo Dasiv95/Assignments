@@ -1,0 +1,38 @@
+package com.bell.assignment4;
+
+public class _3_single {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s = "This is a java class";
+		String[] words = s.split(" ");
+		
+		int wcount=0;
+		for(int i=0;i<words.length;i++){
+			if(words[i]==""){
+				wcount=wcount+1;
+			}
+		}
+		System.out.println(wcount);
+		int []a = new int[wcount];
+		int k=0;
+		for(int j=0;j<s.length();j++){
+			if(words[j]==" "){
+				a[k]=j;
+				++k;
+			}
+		}
+		for(int m=0;m<wcount;m++)
+			System.out.println(a[m]);
+		int schar = 0;
+		for(int l=0;l<wcount-1;l++){
+			if(a[l+1]-a[l]==2){
+				++schar;
+			}
+		}
+		System.out.println("Number of single character words in the given string are : "+schar);
+		
+		}
+			
+
+}

@@ -1,0 +1,14 @@
+/*
+ * This program is to calculate the number of words in a string
+ */
+
+package com.bell.assignment4;
+
+public class _1_Words {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

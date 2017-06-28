@@ -1,0 +1,12 @@
+package com.bell.s8;
+
+public class Person {
+	public void qualification(){
+		System.out.println("This is from Person class qualification");
+	}
+	Public void sense(){
+		
+	}
+
+}
+

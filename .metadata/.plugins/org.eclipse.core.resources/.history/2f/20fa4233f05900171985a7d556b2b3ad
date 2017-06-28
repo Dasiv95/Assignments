@@ -1,0 +1,23 @@
+package com.bell.assignment2;
+
+abstract class Demo{
+	Demo(){
+		System.out.println("Constructor is called");
+	}
+	static {
+		System.out.println("Static block is called");
+	}
+	
+	{System.out.println("Instance block is called");}
+	
+	abstract void dummy();
+}
+
+public class _4_StatAbstrBlock {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

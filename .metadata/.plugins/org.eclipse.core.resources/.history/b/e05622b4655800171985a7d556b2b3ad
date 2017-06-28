@@ -1,0 +1,16 @@
+package com.bell.assignment2;
+
+interface printable{
+	void draw();
+}
+interface printable1{
+	void draw();
+}
+
+public class InterfaceExample implements printable,printable1 {
+	public void draw(){
+		System.out.println("How you doing");
+	};
+	
+
+}

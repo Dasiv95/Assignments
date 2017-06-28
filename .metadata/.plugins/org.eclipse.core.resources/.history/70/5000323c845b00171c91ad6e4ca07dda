@@ -1,0 +1,31 @@
+/*
+ * Come up with an awesome your Own object and build interfaces
+ *  and abstract classes around
+ */
+
+package com.bell.assignment2;
+
+interface course{
+	void time();
+	void room();
+	void examStructure();
+	
+}
+abstract class Science implements course{
+	
+}
+abstract class Social implements course{
+	
+}
+abstract class Mathematics implements course{
+	
+}
+
+public class _9_OwnObject {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

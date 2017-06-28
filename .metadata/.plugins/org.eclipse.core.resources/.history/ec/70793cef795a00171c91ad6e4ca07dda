@@ -1,0 +1,21 @@
+package com.bell.assignment2;
+
+class parent{
+	int a=22;
+	double b = 32.00;
+	void pmethod(){
+		System.out.println("parent class is invoked");
+	}
+}
+class child extends parent{
+	int c =21;
+	
+	
+}
+
+public class _8_ParentChild {
+	public static void main(String args[]){
+		
+	}
+
+}

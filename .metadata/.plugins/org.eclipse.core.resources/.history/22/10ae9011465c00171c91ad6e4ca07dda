@@ -1,0 +1,17 @@
+package com.bell.assignment4;
+
+public class _3_single {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s = "  This is a java class ";
+		String[] words = s.split("");
+		for (String word : words) {
+			  System.out.println(word + " length is: " + word.length());
+			}
+		}
+			
+
+	}
+
+}

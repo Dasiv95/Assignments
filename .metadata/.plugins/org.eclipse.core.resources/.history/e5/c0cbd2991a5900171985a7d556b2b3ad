@@ -1,0 +1,28 @@
+package p1;
+
+interface bank{
+	void rateOfInterest();
+}
+class key implements Sbank{
+	public void rateOfInterest(){
+		System.out.println("This is from Key bank");
+	}
+}
+class wpatt implements Sbank{
+	public void rateOfInterest(){
+		System.out.println("This is form wpatt bank");
+	}
+}
+
+public class BankInterTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Sbank b = new key();
+		b.rateOfInterest();
+		Sbank w = new wpatt();
+		w.rateOfInterest();
+
+	}
+
+}

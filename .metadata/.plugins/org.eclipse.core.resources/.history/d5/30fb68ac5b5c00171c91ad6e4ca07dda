@@ -1,0 +1,23 @@
+package p1;
+
+/*
+ * I want to create a banking application. what do I need
+ * 1.)Balance checking
+ * 2.)Withdraw
+ * 3.)Deposit
+ * 4.)Transaction
+ * For this I have to create accounts and store them. First do 1st three then work on
+ * fourth one.
+ */
+
+public class BankExample {
+
+	public static void main(String[] args) {
+	
+		
+		
+		
+		
+	}
+
+}

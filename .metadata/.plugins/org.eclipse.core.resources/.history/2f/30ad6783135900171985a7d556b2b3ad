@@ -1,0 +1,13 @@
+package p1;
+abstract class Bike{
+	abstract void run();
+}
+public class AbsExample extends Bike {
+	void run(){System.out.println("This bike is running smoothly.");}
+	public static void main(String args[]){
+		Bike b = new AbsExample();
+		b.run();
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.bell.assignment4;
+
+public class _6_replace {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s = "This is a java class";
+		s = s.replace("java", "sql");
+		Systtem.out.println(s);
+
+	}
+
+}

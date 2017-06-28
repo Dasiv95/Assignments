@@ -1,0 +1,22 @@
+package com.bell.assignment2;
+
+class Parent{
+	int a=10;
+	double b=5.0;
+	void Pmethod(){
+		
+	}
+	void Pmethod2(){
+		
+	}
+	
+}
+
+public class _7_parentChild {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

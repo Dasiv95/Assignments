@@ -1,0 +1,38 @@
+package com.bell.assignment2;
+
+class Parent1{
+	Parent1(){
+		System.out.println("parent class constructor is invoked");
+	}
+	int a=22;
+	double b = 32.0;
+	void pmethod(){
+		System.out.println("parent class is invoked");
+	}
+	void pmethod2(){
+		System.out.println("second method of parent class is invoked");
+	}
+}
+class Child1 extends Parent1{
+	int a =21;
+	double b = 20.0;
+	void cmethod(){
+		System.out.println("Child method is invoked");
+	}
+	void pmethod2(){
+		System.out.println("second method of parent class is overridden");
+	}
+	
+}
+
+public class _8_ParentChild {
+	public static void main(String args[]){
+		System.out.println("This is the start of the program");
+		Parent1 obj1 = new Child1();
+		System.out.println(obj1.a);
+		System.out.println(obj1.b);
+		obj1.pmethod2();
+		
+	}
+
+}

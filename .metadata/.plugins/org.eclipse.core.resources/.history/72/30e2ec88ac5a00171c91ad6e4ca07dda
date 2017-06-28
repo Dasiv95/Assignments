@@ -1,0 +1,30 @@
+/*
+ * This program is to sort the given numbers
+ */
+
+package com.bell.assignment6;
+
+import java.util.Scanner;
+
+public class Problem3 {
+
+	public static void main(String[] args) {
+		System.out.println("Please enter the numbers to be sorted");
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Please enter the number of numbers you want to sort");
+		int n =sc.nextInt();
+		int i=0;
+		int a[] = new int[n];
+		while(sc.hasNextInt()){
+			a[i]=sc.nextInt();
+			++i;
+			if(i==n)
+				break;
+		}
+		for(int j:a){
+			System.out.println(a[j]);
+		}
+
+	}
+
+}

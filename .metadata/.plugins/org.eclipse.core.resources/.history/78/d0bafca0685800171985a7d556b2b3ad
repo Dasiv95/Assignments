@@ -1,0 +1,29 @@
+package com.bell.assignment2;
+
+import java.util.Scanner;
+
+interface printable {
+	default void sum(){
+		Scanner sc = new Scanner(System.in);
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+		int c=a+b;
+		System.out.println("This is the result of printable interface : "+c);
+		sc.close();
+	}
+}
+interface printable1{
+	default int sum(){
+		return 0;
+	}
+}
+public class _2_InterfaceExample implements printable,printable1 {
+
+	public static void main(String[] args) {
+		printable obj1 = new _2_InterfaceExample();
+		
+		
+
+	}
+
+}

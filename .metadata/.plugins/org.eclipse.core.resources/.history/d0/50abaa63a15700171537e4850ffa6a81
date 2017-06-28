@@ -1,0 +1,21 @@
+package com.bell.s8;
+
+public class Person {
+	int speedlimit=90;
+	public void qualification(){
+		System.out.println("This is from Person class qualification");
+	}
+	public void sense(){
+		System.out.println("This isfrom Person class sense method");
+	}
+public static void main(String args[]){
+	Person p = new Employee();
+	p.qualification();
+	p.sense();
+	System.out.println("This is the speedlimit: "+ p.speedlimit);
+	Employee e=new Employee();
+	
+}
+
+}
+

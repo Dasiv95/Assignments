@@ -1,0 +1,37 @@
+/*
+ * Come up with an awesome your Own object and build interfaces
+ *  and abstract classes around
+ */
+
+package com.bell.assignment2;
+
+interface data{
+	
+}
+
+interface call{
+	void network(int MIN);
+}
+abstract class Att implements call{
+	public void network(){
+		System.out.println();
+	}
+}
+abstract class Sprint implements call{
+	
+}
+
+abstract class Virgin implements call{
+	
+}
+abstract class GoogleVoice implements call{
+	
+}
+public class _9_OwnObject {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

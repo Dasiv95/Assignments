@@ -1,0 +1,61 @@
+/*
+ * Come up with an awesome your Own object and build interfaces
+ *  and abstract classes around
+ */
+
+package com.bell.assignment2;
+
+interface course{
+	void time();
+	void room();
+	void examStructure();
+	
+}
+interface finalMarks{
+	static final int marks=0;
+	void assesment();
+}
+abstract class Science implements course,finalMarks{
+	public void time(){
+		System.out.println("Science course happens in its own time");
+	}
+	public void room(){
+		System.out.println("Science course happens in its own room");
+	}
+	public void examStructure(){
+		
+	}
+	
+	
+}
+abstract class Social implements course{
+	public void time(){
+		System.out.println("Social course happens in its own time");
+	}
+	public void room(){
+		System.out.println("Social course happens in its own room");
+	}
+	public void examStructure(){
+		
+	}
+}
+abstract class Mathematics implements course{
+	public void time(){
+		System.out.println("Mathematics course happens in its own time");
+	}
+	public void room(){
+		System.out.println("Mathematics course happens in its own room");
+	}
+	public void examStructure(){
+		
+	}
+}
+
+public class _9_OwnObject {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

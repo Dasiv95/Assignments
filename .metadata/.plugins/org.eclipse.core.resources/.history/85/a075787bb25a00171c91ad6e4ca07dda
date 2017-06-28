@@ -1,0 +1,12 @@
+package com.bell.s8;
+
+public class Employee extends Person {
+	int speedlimit=150;
+	public void qualification(){
+		System.out.println("YOu need Masters degree to get the job");
+	}
+	public void sense1(){
+		System.out.println("How you doing?");
+	}
+
+}

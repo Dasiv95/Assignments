@@ -1,0 +1,13 @@
+/*
+ * This program is to sort the given numbers
+ */
+
+package com.bell.assignment6;
+
+public class Problem3 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

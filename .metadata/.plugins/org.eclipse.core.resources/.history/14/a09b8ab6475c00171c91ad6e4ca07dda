@@ -1,0 +1,33 @@
+package com.bell.assignment4;
+
+public class _3_single {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s = "This is a java class";
+		String[] words = s.split("");
+		int wcount=0;
+		for(int i=0;i<s.length();i++){
+			if(words[i]==""){
+				wcount=wcount+1;
+			}
+		}
+		int []a = new int[wcount];
+		int k=0;
+		for(int j=0;j<s.length();j++){
+			if(words[j]==""){
+				a[k]=j;
+				++k;
+			}
+		}
+		int schar = 0;
+		for(int l=0;l<wcount;l++){
+			if(a[l+1]-a[l]==2){
+				++schar;
+			}
+		}
+		
+		}
+			
+
+}

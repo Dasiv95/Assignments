@@ -1,0 +1,12 @@
+package com.bell.assignment4;
+
+public class _3_single {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s = "This is a java class";
+		System.out.println(s.trim());
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.bell.assignment3;
+
+class Student {
+	int id;
+	String name;
+	double fee;
+	char section;
+	
+
+}

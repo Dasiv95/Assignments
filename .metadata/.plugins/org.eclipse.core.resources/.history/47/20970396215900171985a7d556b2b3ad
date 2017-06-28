@@ -1,0 +1,25 @@
+package p1;
+
+interface printable{
+	void print();
+}
+interface showable extends printable{
+	void show();
+}
+abstract class abb implements showable{
+	public void print(){System.out.println("this is the print method");}
+	//public void show(){System.out.println("This is from show method");}
+	
+}
+class acc extends abb{
+	public void show(){System.out.println("This is from show method");
+}
+
+public class InterInherit {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

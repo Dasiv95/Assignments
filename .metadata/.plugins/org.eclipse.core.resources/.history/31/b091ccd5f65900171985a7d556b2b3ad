@@ -1,0 +1,27 @@
+/*
+ * 6) Create object for a class which implements two interfaces and an abstract class
+ *  and verify the visibility of all the methods(both dummy and concrete).
+ */
+
+package com.bell.assignment2;
+
+interface a1{
+	
+}
+interface a2{
+	
+}
+abstract class a3{
+	
+}
+
+
+
+public class _6_visibility {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
